@@ -8,7 +8,7 @@ namespace Models.DomainPrimitives
 
         public Firstname(string firstName)
         {
-            //ValidateFirstName(firstName);
+            ValidateFirstName(firstName);
             _firstName = firstName;
         }
 
